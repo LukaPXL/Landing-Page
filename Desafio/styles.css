@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: rgb(221, 131, 27);
+    text-align: center;
+    height: 80px;
+}
+
+div {
+    width: 100%;
+    position: relative;
+}
+
+img {
+    width: 25%;
+    position: absolute;
+}
+
+p {
+    width: 60%;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    font-size: 20px;
+    padding: 50px; 
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        background-color: rgb(255, 238, 0);
+    }
+    img {
+        width: 100%;
+        position: static;
+    }
+
+    p {
+        width: 100%;
+        position: static;
+    }
+}
